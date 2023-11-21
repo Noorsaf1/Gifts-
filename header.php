@@ -39,7 +39,7 @@ session_start();
         <div class="container">
             <div class="overlay" data-overlay></div>
             <a href="index.php" class="logo">
-                <h1> välj ett namn </h1>
+                <h1> Presentgatan </h1>
             </a>
             <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -49,20 +49,28 @@ session_start();
                     <ion-icon name="close-outline"></ion-icon>
                 </button>
                 <a href="#" class="logo">
-                    <h1> vilja et namn</h1>
+                    <h1> Presentgatan</h1>
                 </a>
                 <ul class="navbar-list">
                     <li class="navbar-item">
                         <a href="#" class="navbar-link">Meny</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">Presenttips
+                        <a href="./Tips.php" class="navbar-link">Presenttips
 </a>
                     </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Presents</a>
+                    </li>
+
                     <li class="navbar-item">
                         <a href="#" class="navbar-link">Så fungerar det
 </a>
                     </li>
+
+                   
+                   
                     
                     <li class="navbar-item">
                         <a href="#" class="navbar-link">Kontakt</a>
@@ -78,7 +86,7 @@ session_start();
                     <li>
                         <a href="#" class="nav-action-btn">
                             <ion-icon name="filter-outline" aria-hidden="true"></ion-icon>
-                            <span class="nav-action-text"></span>
+                            <span class="nav-action-text">Filter</span>
                         </a>
                     </li>
                     <li>
@@ -89,13 +97,7 @@ session_start();
                         </a>
                     </li>
 
-                    <li>
-                        <button class="nav-action-btn">
-                            <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
-                            <data class="nav-action-text" value="">Basket <strong></strong></data>
-                            <data class="nav-action-badge" aria-hidden="true"></data>
-                        </button>
-                    </li>
+                  
                 </ul>
             </nav>
         </div>

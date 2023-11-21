@@ -1,0 +1,125 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; /* Center align children horizontally */
+    justify-content: center; /* Center align children vertically */
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the visual area */
+  .visual-area {
+    width: 100%; /* Full width on mobile */
+    height: 200px; /* Adjust height for mobile */
+    background-image: url('https://cdn.newporthome.eu/media/d4/3c/6d/1651499266/inkastare-presenttips-50.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Add space between sections on mobile */
+  }
+  
+  /* Styling for the description area */
+  .description-area {
+    width: 100%; /* Full width on mobile */
+    padding: 0 20px;
+    text-align: center; /* Center text on mobile */
+  }
+  
+  /* Styling for the header */
+  .description-area h1 {
+    font-size: 20px; /* Slightly smaller font size for mobile */
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the paragraph */
+  .description-area p {
+    font-size: 14px; /* Smaller font size for mobile */
+    line-height: 1.4;
+    align-items: center;
+  }
+  
+  /* Styling for link columns */
+  .link-columns {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack link columns on mobile */
+    align-items: center; /* Center columns on mobile */
+  }
+  
+  /* Styling for each column */
+  .column {
+    width: 100%; /* Full width for mobile */
+    margin-bottom: 20px; /* Add some margin between columns when stacked */
+  }
+  
+  /* Styling for column headers */
+  .column h2 {
+    font-size: 20px; /* Slightly smaller font size for mobile */
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for links */
+  .column a {
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: auto; /* Auto width for padding control */
+  }
+  
+  .column a:hover {
+    background-color: #ff8175;
+  }
+  
+  /* Media queries for larger screens */
+  @media (min-width: 600px) {
+    .content-wrapper {
+        flex-direction: row; /* Side-by-side layout on larger screens */
+        align-items: center; /* Keep children centered vertically */
+        justify-content: space-between; /* Distribute space between children */
+      }
+  
+    .visual-area {
+      flex-basis: 50%;
+      height: 400px; /* Taller visual area for larger screens */
+    }
+  
+    .description-area {
+      flex-basis: 50%;
+      text-align: center; /* Align text to the left on larger screens */
+    }
+  
+    .link-columns {
+      flex-direction: row; /* Side-by-side link columns on larger screens */
+      justify-content: space-around;
+    }
+  
+    .column {
+      width: auto;
+      flex-basis: 30%; /* Adjust column width on larger screens */
+    }
+  
+    .description-area h1,
+    .column h2 {
+      font-size: 24px; /* Larger font size for headers */
+    }
+  
+    .description-area p,
+    .column a {
+      font-size: 16px; /* Larger font size for text and links */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .visual-area {
+      height: 600px; /* Further increase height for desktops */
+    }
+  }
+  

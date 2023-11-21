@@ -65,6 +65,16 @@ include 'popup.php';
                 </div>
             </li>
 
+            <li>
+                <div class="collection-card" style="background-image: url('https://gravyrbutiken.se/wp-content/uploads/16303-glasunderlagg-tra-mr-mrs.jpg')">
+                    <h3 class="h4 card-title">Romantiska Gåvor</h3>
+                    <a href="women_gifts.php" class="btn btn-secondary">
+                        <span>Utforska alla</span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+            </li>
+
           
         </ul>
     </div>
@@ -100,9 +110,7 @@ include 'popup.php';
                     echo "<button class='btn-wishlist' onclick='addToWishlist(" . htmlspecialchars($row['id']) . ")'>";
                     echo "<ion-icon name='heart-outline'></ion-icon>";
                     echo "</button>";
-                    echo "<button class='btn-add-to-cart' onclick='addToCart(" . htmlspecialchars($row['id']) . ")'>";
-                    echo "<ion-icon name='cart-outline'></ion-icon>";
-                    echo "</button>";
+                    
                     echo "</div>"; // .actions-container
                     echo "<img src='" . htmlspecialchars($row['image']) . "' alt='" . htmlspecialchars($row['title']) . "' class='product-image'>";
                     echo "<h3 class='product-title'>" . htmlspecialchars($row['title']) . "</h3>";
