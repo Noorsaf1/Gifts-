@@ -39,7 +39,7 @@ session_start();
         <div class="container">
             <div class="overlay" data-overlay></div>
             <a href="index.php" class="logo">
-                <h1> vilja ett namn </h1>
+                <h1> välj ett namn </h1>
             </a>
             <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
                 <ion-icon name="menu-outline"></ion-icon>

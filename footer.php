@@ -12,7 +12,7 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-          <h1>ilja ett namn </h1>
+          <h1>välj ett namn </h1>
 
           </a>
 
