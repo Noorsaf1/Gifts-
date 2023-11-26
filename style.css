@@ -1565,7 +1565,14 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   margin-bottom: 40px; /* increasing space for better readability */
   font-size: 2.5rem; /* making the title a bit bigger */
   color: var(--accent);
+
+  
 }
+.gifts {
+  margin-top: 60px; /* Adjust this value as needed */
+  /* Other existing styles... */
+}
+
 
 .gift-list {
   display: flex;

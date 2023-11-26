@@ -26,13 +26,14 @@
 <div class="link-columns">
   <div class="column">
     <h2>Presentförslag</h2>
-    <a href="#">Present till honom</a>
-    <a href="#">Present till henne</a>
-    <a href="#">Romantiska presenter</a>
-    <a href="#">Present till pappa</a>
-    <a href="#">Present till mamma</a>
-    <a href="#">Present till pojkvän</a>
-    <a href="#">Present till flickvän</a>
+    <a href="present-details.php?id=1">Present till honom</a>
+    <a href="present-details.php?id=2">Present till henne</a>
+    <a href="present-details.php?id=8">Romantiska presenter</a>
+    <a href="present-details.php?id=9">Present till pappa</a>
+    <a href="present-details.php?id=10">Present till mamma</a>
+    <a href="present-details.php?id=11">Present till pojkvän</a>
+    <a href="present-details.php?id=12">Present till flickvän</a>
+
   
 
     <!-- Add more links as needed -->
