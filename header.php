@@ -1,5 +1,5 @@
 <?php
-$dynamicTitle = "Upplevelse - Dynamic Title";
+$dynamicTitle = "Presentgatan";
 $currentDate = date('Y-m-d');
 include 'config.php';
 session_start();
@@ -53,28 +53,15 @@ session_start();
                 </a>
                 <ul class="navbar-list">
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">Meny</a>
+                        <a href="./index.php" class="navbar-link">Hem</a>
                     </li>
                     <li class="navbar-item">
                         <a href="./Tips.php" class="navbar-link">Presenttips
 </a>
                     </li>
 
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link">Presents</a>
-                    </li>
 
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link">Så fungerar det
-</a>
-                    </li>
-
-                   
-                   
                     
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link">Kontakt</a>
-                    </li>
                 </ul>
                 <ul class="nav-action-list">
                     <li>

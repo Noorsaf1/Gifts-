@@ -1,5 +1,7 @@
 
 
+
+
   <!-- 
     - #FOOTER
   -->
@@ -16,8 +18,12 @@
 
           </a>
 
+
+           
+
           <ul class="social-list">
 
+            <!--
             <li>
               <a href="#" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
@@ -41,19 +47,19 @@
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
-
+             -->
           </ul>
 
         </div>
 
-
+ 
         
 
 
         
 
         <div class="footer-link-box">
-
+          
           <ul class="footer-list">
 
             <li>
@@ -88,6 +94,8 @@
 
           </ul>
 
+
+
           <ul class="footer-list">
 
         <li>
@@ -120,47 +128,7 @@
 
       </ul>
 
-      <div class="footer-list">
 
-        <p class="footer-list-title">Öppettider</p>
-
-        <table class="footer-table">
-          <tbody>
-
-            <tr class="table-row">
-              <th class="table-head" scope="row">Mån - Tis:</th>
-
-              <td class="table-data">8AM - 10PM</td>
-            </tr>
-
-            <tr class="table-row">
-              <th class="table-head" scope="row">Ons:</th>
-
-              <td class="table-data">8AM - 7PM</td>
-            </tr>
-
-            <tr class="table-row">
-              <th class="table-head" scope="row">Fre:</th>
-
-              <td class="table-data">7AM - 12PM</td>
-            </tr>
-
-            <tr class="table-row">
-              <th class="table-head" scope="row">Lör:</th>
-
-              <td class="table-data">9AM - 8PM</td>
-            </tr>
-
-            <tr class="table-row">
-              <th class="table-head" scope="row">Sön:</th>
-
-              <td class="table-data">Stängt</td>
-            </tr>
-
-          </tbody>
-        </table>
-
-      </div>
 
       
       <div class="footer-list">

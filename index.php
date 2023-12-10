@@ -22,7 +22,7 @@ include 'popup.php';
           </h2>
 
           <h3 class="hero-text">
-          Letar du efter den perfekta gåvan? Gör någons dag speciell med ett unikt val från vårt sortiment. Detta är ett utmärkt tillfälle att hitta den perfekta presenten, oavsett om det är till jul, födelsedag eller bara för att skämma bort någon du bryr dig om. Passa på och hitta den bästa gåvan redan idag!
+          Hitta den perfekta presenten på Presentgatan.se! Utforska unika och personliga gåvor för varje tillfälle. Gör varje ögonblick minnesvärt.
           </h3>
 
           <!-- Enhanced Search bar -->
@@ -84,58 +84,7 @@ include 'popup.php';
 <!-- 
   - #BESTSELLERS
 -->
-<section class="section bestsellers">
-    <div class="container">
-        <h2 class="section-title">Våra Bästsäljare</h2>
-        <div class="products-grid">
-            <?php
-            // Anslut till databasen
-            $conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
-
-            // Kontrollera anslutning
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
-
-            // Hämta bästsäljande produkter
-            $sql = "SELECT * FROM presents ORDER BY price DESC LIMIT 3"; // Anta att högre pris = bästsäljare
-            $result = $conn->query($sql);
-
-            // Kontrollera om det finns resultat och skriv ut dem
-            if ($result && $result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    echo "<div class='product-card'>";
-                    // Nu visas actions-container när musen är över kortet
-                    echo "<div class='actions-container'>"; // Container for wishlist and cart buttons
-                    echo "<button class='btn-wishlist' onclick='addToWishlist(" . htmlspecialchars($row['id']) . ")'>";
-                    echo "<ion-icon name='heart-outline'></ion-icon>";
-                    echo "</button>";
-                    
-                    echo "</div>"; // .actions-container
-                    echo "<img src='" . htmlspecialchars($row['image']) . "' alt='" . htmlspecialchars($row['title']) . "' class='product-image'>";
-                    echo "<h3 class='product-title'>" . htmlspecialchars($row['title']) . "</h3>";
-                    echo "<p class='product-description'>" . htmlspecialchars($row['description']) . "</p>";
-                    echo "<p class='product-price'>kr" . htmlspecialchars(number_format($row['price'], 2, ',', '')) . "</p>";
-                    echo "</div>"; // .product-card
-                }
-            } else {
-                echo "<p>Inga bästsäljare att visa.</p>";
-            }
-
-            // Stäng anslutning
-            $conn->close();
-            ?>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
+<?php include 'Gifts_tips.php'; ?>
 
 
 
