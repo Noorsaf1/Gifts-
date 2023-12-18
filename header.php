@@ -39,7 +39,7 @@ session_start();
         <div class="container">
             <div class="overlay" data-overlay></div>
             <a href="index.php" class="logo">
-                <h1> Presentgatan </h1>
+                <h1> Presentgatan <strong>.se</strong></h1>
             </a>
             <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -64,12 +64,18 @@ session_start();
                     
                 </ul>
                 <ul class="nav-action-list">
-                    <li>
-                        <button class="nav-action-btn">
-                            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
-                            <span class="nav-action-text">Search</span>
-                        </button>
-                    </li>
+             <!-- Search Form -->
+<!-- Search Form -->
+<li>
+    <form action="search_page.php" method="get" class="nav-search-form">
+        <input type="text" name="search" placeholder="Search..." aria-label="Search" required class="nav-search-input" style="display: none;">
+        <button type="submit" class="nav-action-btn" id="searchToggle">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            <span class="nav-action-text">Search</span>
+        </button>
+    </form>
+</li>
+
                     <li>
                         <a href="#" class="nav-action-btn">
                             <ion-icon name="filter-outline" aria-hidden="true"></ion-icon>
@@ -120,6 +126,24 @@ document.querySelectorAll('.btn-wishlist').forEach(button => {
         addToWishlist(productId);
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+        const searchToggle = document.getElementById('searchToggle');
+        const searchInput = document.querySelector('.nav-search-input');
+
+        searchToggle.addEventListener('click', function(event) {
+            if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+                event.preventDefault(); // Prevent the form from submitting
+                searchInput.style.display = 'block'; // Show the input
+                searchInput.focus(); // Automatically focus on the input
+            } else {
+                // Optional: Hide the input again if the icon is clicked and the input is already visible
+                searchInput.style.display = 'none';
+            }
+        });
+    });
+
 </script>
 
 

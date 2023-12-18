@@ -65,7 +65,7 @@
             <li>
               <p class="footer-list-title">Kontakta oss</p>
             </li>
-
+      <!--
             <li>
               <address class="footer-link">
                 <ion-icon name="location"></ion-icon>
@@ -83,12 +83,12 @@
                 <span class="footer-link-text">+46790165648</span>
               </a>
             </li>
-
+-->
             <li>
               <a href="mailto:footcap@help.com" class="footer-link">
                 <ion-icon name="mail"></ion-icon>
 
-                <span class="footer-link-text">upplevelser@help.com</span>
+                <span class="footer-link-text">hejsan@Presentgatan.se</span>
               </a>
             </li>
 
@@ -97,11 +97,11 @@
 
 
           <ul class="footer-list">
-
+          
         <li>
           <p class="footer-list-title">Mitt Konto</p>
         </li>
-
+<!--
         <li>
           <a href="#" class="footer-link">
             <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -118,6 +118,8 @@
           </a>
         </li>
 
+
+-->
         <li>
           <a href="#" class="footer-link">
             <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -136,7 +138,8 @@
         <p class="footer-list-title">Nyhetsbrev</p>
 
         <p class="newsletter-text">
-          nån typ av nyhets som vi behöver hämtas från databass
+        Prenumerera på vårt nyhetsbrev för exklusivapresenttips, oslagbara rabatter och påminnelserom viktiga presentdagar. 
+        Skapa minnesvärdaögonblick med unika presenter och förmånligaerbjudanden - prenumerera idag!
         </p>
 
         <form action="" class="newsletter-form">
@@ -156,7 +159,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; <a href="#" class="copyright-link"></a>Upplevelser Andrén AB, Voltavägen 13, 168 69 Bromma. Organisationsnummer: 556899-1409.
+          &copy; <a href="#" class="copyright-link"></a> Presentgatan.se 2024
 
       </div>
     </div>

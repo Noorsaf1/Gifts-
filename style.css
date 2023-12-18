@@ -444,6 +444,10 @@ body {
  .logo  h1 {
   color: hsl(5, 100%, 69%);  /* Setting the text color to black */
 }
+.logo  strong {
+  color: #000000;
+}
+
 
 .navbar .logo img { margin-inline: auto; }
 
@@ -1021,6 +1025,7 @@ body {
   margin-top: 10px;
 }
 
+
 /* Footer Link Styles */
 .footer-link {
   color: var(--onyx);
@@ -1077,9 +1082,15 @@ a.footer-link:is(:hover, :focus) {
 /* Newsletter Text Styles */
 .newsletter-text {
   color: var(--onyx);
-  line-height: 1.9;
+  line-height: 1.6; /* Reduced line height for more lines */
   margin-bottom: 20px;
+
+
 }
+
+
+
+
 
 /* Newsletter Form Styles */
 .newsletter-form {
@@ -1587,7 +1598,10 @@ a.footer-link:is(:hover, :focus) {
 
 }
 
-
+/** hidding scrh bar  */
+.nav-search-input {
+  display: none;
+}
 
 
 /**

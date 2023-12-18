@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,8 @@
     <title>pop</title>
 </head>
 <body>
-    
+
+<!--
 <?php
 // PHP code can go here. For example, you can manage the display of the popup based on certain conditions.
 $showPopup = true; // This is just an example condition.
@@ -62,6 +65,6 @@ if ($showPopup) {
 });
 
 </script>
-
+-->
 </body>
 </html>

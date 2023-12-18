@@ -25,13 +25,16 @@ include 'popup.php';
           Hitta den perfekta presenten på Presentgatan.se! Utforska unika och personliga gåvor för varje tillfälle. Gör varje ögonblick minnesvärt.
           </h3>
 
-          <!-- Enhanced Search bar -->
-          <div class="search-container">
-            <input type="text" class="search-input" placeholder="Sök här..." aria-label="Search">
-            <button type="submit" class="search-btn">
-                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
-            </button>
-        </div>
+        <!-- Enhanced Search Bar -->
+            <div class="search-container">
+                <form action="search.php" method="get">
+                    <input type="text" class="search-input" name="search" placeholder="Sök här..." aria-label="Search">
+                    <button type="submit" class="search-btn">
+                        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </form>
+            </div>
+
 
         </div>
       </section>

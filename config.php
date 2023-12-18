@@ -13,6 +13,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+
+
 // For PDO (optional, if you prefer PDO over MySQLi)
 try {
     $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4";
@@ -25,5 +27,8 @@ try {
 } catch (\PDOException $e) {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
+
+
+
 ?>
 
