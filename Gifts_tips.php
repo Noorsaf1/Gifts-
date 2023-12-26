@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Presentgatan Gift Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -87,7 +87,7 @@
     <section class="section-gift-shop">
         <div class="content-wrapper">
             <div class="image-section">
-                <img src="https://images.pexels.com/photos/264787/pexels-photo-264787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Presentgatan Street Scene">
+                <img src="./assets/img/tips_image3.webp" alt="Presentgatan Street Scene">
             </div>
             <div class="text-section">
                 <h2>Välkommen till Presentgatan.se - din guide till perfekta presenter!</h2>

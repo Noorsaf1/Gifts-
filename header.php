@@ -98,7 +98,7 @@ session_start();
 
     
 
-    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <script  async src="https://cdn.jsdelivr.net/npm/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
 
     <script>
 // Function to add an item to the wishlist

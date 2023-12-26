@@ -14,7 +14,7 @@ include 'popup.php';
         - #HERO
       -->
 
-      <section class="section hero" style="background-image: url('https://images4.alphacoders.com/129/1295471.jpg')">
+      <section class="section hero" style="background-image: url('./assets/img/main_image1.webp')" alt="main-hero" >
         <div class="container">
 
           <h2 class="h1 hero-title">
@@ -26,14 +26,15 @@ include 'popup.php';
           </h3>
 
         <!-- Enhanced Search Bar -->
-            <div class="search-container">
-                <form action="search.php" method="get">
-                    <input type="text" class="search-input" name="search" placeholder="Sök här..." aria-label="Search">
-                    <button type="submit" class="search-btn">
-                        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
-                    </button>
-                </form>
-            </div>
+        <div class="search-container">
+            <form action="search.php" method="get">
+                <input type="text" class="search-input" name="search" placeholder="Sök här..." aria-label="Search">
+                <button type="submit" class="search-btn" aria-label="Search">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </form>
+</div>
+
 
 
         </div>
@@ -50,7 +51,7 @@ include 'popup.php';
     <div class="container">
         <ul class="collection-list has-scrollbar">
             <li>
-                <div class="collection-card" style="background-image: url('https://wallpapercave.com/wp/wp9353387.jpg')">
+                <div class="collection-card" style="background-image: url('./assets/img/image4.webp')" alt="image4" >
                     <h3 class="h4 card-title">Gåvor för män</h3>
                     <a href="men_gifts.php" class="btn btn-secondary">
                         <span>Utforska alla</span>
@@ -59,7 +60,7 @@ include 'popup.php';
                 </div>
             </li>
             <li>
-                <div class="collection-card" style="background-image: url('https://images7.alphacoders.com/129/1297173.jpg')">
+                <div class="collection-card" style="background-image: url('./assets/img/image2.webp')" alt="image2">
                     <h3 class="h4 card-title">Gåvor för kvinnor</h3>
                     <a href="women_gifts.php" class="btn btn-secondary">
                         <span>Utforska alla</span>
@@ -69,7 +70,7 @@ include 'popup.php';
             </li>
 
             <li>
-                <div class="collection-card" style="background-image: url('https://gravyrbutiken.se/wp-content/uploads/16303-glasunderlagg-tra-mr-mrs.jpg')">
+                <div class="collection-card" style="background-image: url('./assets/img/image0.webp')" alt="imgae0">
                     <h3 class="h4 card-title">Romantiska Gåvor</h3>
                     <a href="women_gifts.php" class="btn btn-secondary">
                         <span>Utforska alla</span>

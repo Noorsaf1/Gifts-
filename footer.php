@@ -159,7 +159,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; <a href="#" class="copyright-link"></a> Presentgatan.se 2024
+          &copy; <a href="./index.php" class="copyright-link"> Presentgatan.se 2024</a>
 
       </div>
     </div>
